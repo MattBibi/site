@@ -50,7 +50,7 @@
     .hint { font-size: 0.75rem; color: rgba(163,163,163,0.7); margin-top: 10px; }
     #final-image { margin-top: 12px; }
     #final-image img {
-      width: 40px; height: 40px; image-rendering: crisp-edges;
+      width: 100px; height: 100px; image-rendering: crisp-edges;
       filter: drop-shadow(0 0 10px rgba(0,245,255,0.85));
     }
   </style>
@@ -88,7 +88,7 @@
         if (distance <= 0) {
           clearInterval(timer);
           countdownEl.textContent = "";
-          finalImageEl.innerHTML = '<img src="./IMAGEXX.png" alt="Event icon">';
+          finalImageEl.innerHTML = '<img src="./ring.png" alt="Event icon">';
           return;
         }
 
